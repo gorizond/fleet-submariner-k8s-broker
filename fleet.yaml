@@ -1,0 +1,9 @@
+defaultNamespace: submariner-operator
+
+labels:
+  gorizond: submariner-k8s-broker
+
+helm:
+  chart: submariner-k8s-broker
+  repo: https://submariner-io.github.io/submariner-charts/charts
+  version: 0.20.0
